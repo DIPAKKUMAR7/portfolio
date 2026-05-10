@@ -48,7 +48,7 @@ const Footer = () => {
             
             {
               icon: <FaLinkedin />,
-              link: "https://www.linkedin.com/in/nilesh58singh/",
+              link: "www.linkedin.com/in/dipak-kumar-070046295",
             },
             {
               icon: <FaInstagram />,
@@ -56,7 +56,7 @@ const Footer = () => {
             },
             {
               icon: <FaGithub />,
-              link: "https://github.com/Nilesh78-glitch",
+              link: "https://github.com/DIPAKKUMAR7",
             },
           ].map((item, index) => (
             <a
