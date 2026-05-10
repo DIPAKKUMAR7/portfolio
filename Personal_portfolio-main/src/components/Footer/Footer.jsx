@@ -48,11 +48,11 @@ const Footer = () => {
             
             {
               icon: <FaLinkedin />,
-              link: "www.linkedin.com/in/dipak-kumar-070046295",
+              link: "https://www.linkedin.com/in/dipak-kumar-070046295/",
             },
             {
               icon: <FaInstagram />,
-              link: "https://www.instagram.com/nilesh_s.i.n.g.h/",
+              link: "https://www.instagram.com/dipakjaiswal_7/",
             },
             {
               icon: <FaGithub />,
