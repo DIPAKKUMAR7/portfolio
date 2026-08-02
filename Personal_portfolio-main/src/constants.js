@@ -46,7 +46,7 @@ const kvlogo = "/assets/school_logo/kvlogo.jpg";
 const DAV = "/assets/school_logo/DAV.jpeg";
 
 // Project Section Logos
-const deltaAi = "/assets/project_logos/deltaFrame.png";
+const mineAi = "/assets/project_logos/mineAI.png";
 const air = "assets/project_logos/air.png";
 const feedMeBack = "/assets/project_logos/feedMeBack.png";
 
@@ -84,7 +84,6 @@ export const SkillsInfo = [
       { name: "C++", logo: cppLogo },
       { name: "Python", logo: pythonLogo },
       { name: "JavaScript", logo: javascriptLogo },
-      { name: "TypeScript", logo: typescriptLogo },
     ],
   },
   {
@@ -92,7 +91,6 @@ export const SkillsInfo = [
     skills: [
       { name: "Git", logo: gitLogo },
       { name: "GitHub", logo: githubLogo },
-      { name: "Linux", logo: linux },
       { name: "Postman", logo: postmanLogo },
       { name: "Compass", logo: mcLogo },
       { name: "Vercel", logo: vercelLogo },
@@ -125,10 +123,10 @@ export const experiences = [
   {
     id: 1,
     img: cod,
-    role: "JavaScript Developer",
+    role: "Web Development Intern",
     company: "CodSoft Inc",
     date: "June 2024 - July 2024",
-    desc: "Successfully completed a 1-month internship as a JavaScript Developer, designing and developing projects including a digital clock, a personal portfolio website, and a to-do list application. Enhanced proficiency in JavaScript, DOM operations, and responsive design while applying best practices in front-end development.",
+    desc: "Successfully completed a 1-month internship as a Web Developer, designing and developing projects including a digital clock, a personal portfolio website, and a to-do list application. Enhanced proficiency in React.js, javascript, and responsive design while applying best practices in front-end development.",
     skills: [
       "HTML",
       "CSS",
@@ -146,7 +144,7 @@ export const education = [
     img: BIT,
     school: "BIT Sindri",
     date: "Sept 2023 - July 2027",
-    grade: "7.81 CGPA",
+    grade: "7.75 CGPA",
     desc: "Bachelor of Technology in Computer Science and Engineering (CGPA: 7.81) from BIT Sindri, where I served in the NSS Club, and Participated in multiple hackathons, coding contests, and problem-solving competitions.",
     degree: "Bachelor of Technology, Computer Science Engineering",
   },
@@ -173,37 +171,41 @@ export const education = [
 export const projects = [
   {
     id: 0,
-    title: "deltaAi",
+    title: "MineAI",
     description:
-      "Built a full-stack conversational AI platform using Gemini 2.0 Flash for real-time, context-aware chat, featuring a React + TypeScript UI and a scalable Node.js/Express backend with MongoDB.",
-    image: deltaAi,
-    tags: ["React.js", "MongoDB", "TypeScript", "Node.js", "Gemini Flash API"],
-    github: "https://github.com/geekyanimesh/delta",
-    webapp: "https://delta-frontend-nu.vercel.app/",
+      "Built a full-stack predictive maintenance platform using React, Node.js, Express, MongoDB, and machine learning to detect conveyor belt anomalies, visualize sensor data, and generate real-time maintenance insights.",
+    image: mineAi,
+    tags: [
+      "React.js",
+      "MongoDB",
+      "Node.js",
+      "Gen AI",
+      "Pyhton",
+      "Axios",
+      "Multer",
+      "REST API",
+    ],
+    github: "https://github.com/DIPAKKUMAR7",
+    webapp: "https://predictive-maintenance-system-omega.vercel.app/",
   },
   {
     id: 1,
-    title: "Airbase Mangement system",
+    title: "Stream Sphere",
     description:
-      "Airbase Management System is a Java Swing-based desktop application that streamlines airline operations, including flight scheduling, booking management, and customer service, utilizing JDBC for database connectivity.",
+      "Developed a scalable full-stack social media platform using React, Node.js, Express, MongoDB, and JWT authentication, enabling secure content sharing, user interactions, and real-time engagement.",
     image: air,
     tags: [
-      "Java Swing",
-      "JDBC",
-      "JFrame & Components",
-      "OOP (Inheritance & Interfaces)",
-      "Desktop GUI Application",
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "JWT",
+      "Axios",
+      "Cloudinary",
+      "Multer",
+      "REST API",
     ],
-    github: "",
+    github: "https://github.com/DIPAKKUMAR7",
     webapp: "",
-  },
-  {
-    id: 2,
-    title: "FeedMeBack",
-    description:
-      "Built feedMeBack, an AI-assisted SaaS platform for anonymous product feedback, using Next.js, Auth.js, OTP email verification, the Gemini SDK, and MongoDB.",
-    image: feedMeBack,
-    tags: ["Next.js", "Auth.js", "MongoDB", "TypeScript", "Tailwind CSS"],
-    github: "https://github.com/geekyanimesh/FeedMeBack",
   },
 ];
